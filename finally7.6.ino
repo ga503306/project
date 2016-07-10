@@ -90,7 +90,7 @@ void loop() {
                Serial.println(sendthis);
 		if (www.connected()) {
 			www.println("POST /testard.php HTTP/1.1");
-			www.println("Host: 210.240.202.114");
+			www.println("Host: 210.240.202.109");
 			www.println("User-Agent: Arduino/1.0");
 			www.println("Connection: close");
 			www.println("Content-Type: application/x-www-form-urlencoded; charset=UTF-8");
